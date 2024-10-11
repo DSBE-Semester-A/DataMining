@@ -331,6 +331,7 @@ sns.histplot(y_test, label='Actual Values', ax=axes[1], color='blue')
 sns.histplot(y_dec_pred, label='Predicted Values', ax=axes[1], color='orange')
 axes[1].set_title('Decision Tree regression on median house prices on proximity to a big city / urban center', size=10)
 axes[1].legend()
+axes[0].set_ylabel('Median House Income')
 
 plt.tight_layout()
 plt.show()
