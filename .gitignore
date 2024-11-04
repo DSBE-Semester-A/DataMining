@@ -3,8 +3,7 @@
 # Ignore Python cache directories
 __pycache__/
 # Ignore environment-specific settings
-.env
+.venv
 # Ignore editor-specific files
 .vscode/
 .idea/
-*.sublime-*
