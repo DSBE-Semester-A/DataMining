@@ -27,12 +27,12 @@ def plot_live(X, y, evaluator, param_name, param_range, scale='log', ylim=(0,1),
     plt.ion()
     plt.ylabel(ylabel)
     plt.xlabel(param_name)
-    
+
     # Make the scale look nice
     plt.xscale(scale)
     plt.xlim(param_range[0], param_range[-1])
     plt.ylim(ylim)
-        
+
     # Start from empty plot, then fill it
     series = {}
     lines = {}
