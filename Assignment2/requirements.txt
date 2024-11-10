@@ -4,6 +4,7 @@ pandas == 2.2.3
 sklearn == 1.5.2
 xgboost
 mlxtend
-skfuzzy
+scikit-fuzzy
 seaborn == 0.13.2
 IPython == 8.28.0
+dbscan
